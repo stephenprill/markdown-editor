@@ -1,3 +1,17 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<h2 id='title'>Markup Editor</h2>
+  <div class="container">
+    <section class="input">
+      <h3>Markdown</h3>
+        {{textarea value=markdown cols="50" rows="40" placeholder="Write markdown here"}}
+    </section>
+
+    <section class="output">
+      <h3>HTML</h3>
+        <div class="text">
+          <h3>{{showdown-addon markdown}}</h3>
+        </div>
+    </section>
+  </div>
 
 {{outlet}}

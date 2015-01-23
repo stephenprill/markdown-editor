@@ -1,3 +1,60 @@
 html, body {
   margin: 20px;
+  display: inline;
+  font-family: "Open Sans";
+}
+
+h2 {
+/*   border-bottom: 2px solid black; */
+  color: red;
+  margin: 30px;
+  margin-bottom: -20px;
+}
+
+.input {
+  /*   height: 400px; */
+  /*   width: 50% */
+  background-color: white;
+/*   position: fixed; */
+  margin: 30px;
+  font-size: 20px;
+  float: left;
+  display: inline;
+  width:40%;
+  border: none;
+/*   border: solid 1px black; */
+}
+
+.output {
+  background-color: white;
+/*   position: fixed;
+margin-right: auto;
+margin-left: auto; */
+  margin: 30px;
+  display: inline;
+/*   font-size: 14px; */
+  float: left;
+  width:40%;
+  font-size: 20px;
+  /*   overflow: hidden; */
+  /*   border: solid 1px black; */
+  /*   height: 526px;
+        width: 372px; */
+  /*   width:48%; */
+}
+
+.container {
+    width: 100%; 
+/*  border: solid 1px red; */
+}
+
+.text {
+  font-size: 10px;
+/*   border: 1px solid black; */
+}
+
+textarea {
+  font-size: 10px;
+/*     width: 450px; */
+
 }
