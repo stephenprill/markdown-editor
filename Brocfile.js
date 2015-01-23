@@ -4,7 +4,6 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
 
-app.import('http://type-scale.com/?size=16&scale=1.414&text=A Visual Type Scale&webfont=Libre+Baskerville&font-family=\'Libre Baskerville\', serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=');
 
 // Use `app.import` to add additional libraries to the generated
 // output files.
