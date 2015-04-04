@@ -1,7 +1,10 @@
 html, body {
-  margin: 20px;
-  display: inline;
+  box-sizing: border-box; 
   font-family: "Open Sans";
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 h2 {
@@ -44,7 +47,7 @@ margin-left: auto; */
 }
 
 .container {
-    width: 100%; 
+    width: 100%;
 /*  border: solid 1px red; */
 }
 
