@@ -1,7 +1,8 @@
-# Markup
+# Mardown Editor
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ember CLI fronted. Allows users to write markdown with real-time preview. 
+
+Heroku URL: https://pure-scrubland-1715.herokuapp.com/
 
 ## Prerequisites
 
@@ -47,4 +48,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
