@@ -1,6 +1,6 @@
-# Mardown Editor
+# Markdown Editor
 
-Ember CLI fronted. Allows users to write markdown with real-time preview. 
+Ember CLI fronted. Allows users to write markdown with real-time preview.
 
 Heroku URL: https://pure-scrubland-1715.herokuapp.com/
 
