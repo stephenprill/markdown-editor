@@ -2,7 +2,7 @@
 
 Ember CLI fronted. Allows users to write markdown with real-time preview.
 
-Heroku URL: https://pure-scrubland-1715.herokuapp.com/
+Heroku URL: https://markdown-prill.herokuapp.com/
 
 ## Prerequisites
 
