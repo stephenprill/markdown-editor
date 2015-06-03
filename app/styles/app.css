@@ -1,6 +1,61 @@
-html, body {
-  box-sizing: border-box;
-  font-family: "Open Sans";
+/* GRID */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+  .columns:before,
+  .columns:after {
+   content:"";
+   display:table;
+  }
+
+
+
+.columns:after {
+ clear:both;
+}
+
+.columns {
+ zoom:1;
+ overflow: hidden;
+}
+
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.column {
+ float: left;
+ white-space: nowrap;
+}
+
+.two.columns .column, .column-two {
+ width: 50%;
+}
+
+.columns.three .column, .column-three {
+ width: 33.33333%;
+}
+
+.four.columns .column, .column.column-four {
+ width: 25%;
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  /* background-image: url(/backgrounds/birdwoodpanel.jpg); */
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 *, *:before, *:after {
@@ -13,22 +68,39 @@ h2 {
   margin-bottom: -20px;
 }
 
+textarea {
+  font-size: 10px;
+/*     width: 450px; */
+
+}
+
+.text {
+  font-size: 10px;
+/*   border: 1px solid black; */
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+/*  border: solid 1px red; */
+}
+
 .input {
-  /*   height: 400px; */
-  /*   width: 50% */
-  background-color: white;
-/*   position: fixed; */
+  background-color: blue;
   margin: 30px;
   font-size: 20px;
   float: left;
   display: inline;
   width:40%;
   border: none;
-/*   border: solid 1px black; */
+  /*   height: 400px; */
+  /*   width: 50% */
+  /*   position: fixed; */
+  /*   border: solid 1px black; */
 }
 
 .output {
-  background-color: white;
+  background-color: green;
 /*   position: fixed;
 margin-right: auto;
 margin-left: auto; */
@@ -43,20 +115,4 @@ margin-left: auto; */
   /*   height: 526px;
         width: 372px; */
   /*   width:48%; */
-}
-
-.container {
-    width: 100%;
-/*  border: solid 1px red; */
-}
-
-.text {
-  font-size: 10px;
-/*   border: 1px solid black; */
-}
-
-textarea {
-  font-size: 10px;
-/*     width: 450px; */
-
 }

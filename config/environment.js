@@ -12,6 +12,15 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    contentSecurityPolicy: {
+          'default-src': "'none'",
+          'script-src': "'self' 'unsafe-eval'",
+          'font-src': "'self' fonts.gstatic.com",
+          'connect-src': "'self' localhost:4200 ws://localhost:35729 ws://0.0.0.0:35729",
+          'img-src': "'self'",
+          'style-src': "'self' 'unsafe-inline' fonts.googleapis.com",
+          'media-src': "'self'"
+        },
 
     APP: {
       // Here you can pass flags/options to your application instance
