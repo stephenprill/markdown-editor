@@ -1,17 +1,34 @@
-<h2 id="title">Markdown Editor</h2>
-
 <div class="container">
-    <section class="input">
-      <h3>Markdown</h3>
-        {{textarea value=markdown cols="50" rows="40" placeholder="Write markdown here"}}
+
+<div class="title-image">
+  <img src="/pictures/markdown_turtles_banner.png" alt="" />
+</div>
+
+
+
+    <section class="markdown">
+
+        <div class="markdown-title">
+          Markdown
+        </div>
+
+        {{textarea value=markdown cols="50" rows="20" placeholder="Write markdown here"}}
+
     </section>
+
+      <div class="html-title">
+        HTML
+      </div>
 
     <section class="output">
-      <h3>HTML</h3>
-        <div class="text">
-          <h3>{{showdown-addon markdown}}</h3>
+        <div class="html">
+          {{showdown-addon markdown}}
         </div>
     </section>
-  </div>
+
+
+
+</div>
+
 
 {{outlet}}
