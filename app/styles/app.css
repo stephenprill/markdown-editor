@@ -8,11 +8,8 @@ html {
 
 html, body {
   height: 100%;
-background-image: url(/backgrounds/turtle_background.jpg);
-
-/* background: green; */
-
-
+  background-image: url(/backgrounds/turtle_background.jpg);
+  /* background: green; */
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -31,7 +28,6 @@ background-image: url(/backgrounds/turtle_background.jpg);
 .title-image {
   text-align: center;
 /*   border-bottom: 2px solid black;*/
-  margin-bottom: 30px;
   padding: 0;
   display: block;
   margin-left: auto;
@@ -66,36 +62,36 @@ background-image: url(/backgrounds/turtle_background.jpg);
   outline: none;
   resize: none;
   overflow: auto;
-  border: 1px solid rgba(0, 0, 0, 0.303);;
+  border: 1px solid rgba(0, 0, 0, 0.303);
   font-family: source-sans-pro, sans-serif;
 /* background: rgba(0, 0, 0, 0.1990); */
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   text-shadow: 0px 0px 6px #000, -1px -1px #000, 1px 1px #000;
 
-  opacity: .85;
-
+/*   opacity: .85; */
   /* background: black;*/
 
 
   /* background-image: url(/pictures/TMNT_raph_SELECT_active_FINAL_fade.png); */
 
-  /* background-image: url(/pictures/TMNT_donnie_SELECT_active_FINAL_fade.png);*/
-
+/*   background-image: url(/pictures/TMNT_donnie_SELECT_active_FINAL_fade.png);
+ */
   /* background-image: url(/pictures/TMNT_leo_SELECT_active_FINAL_fade.png); */
 
   /* background-image: url(/pictures/TMNT_mikey_SELECT_active_FINAL_fade.png); */
 
-/*   background-image: url(/pictures/raph50_opi.png);*/
-background-position:center;
+  background-image: url(/pictures/TMNT_raph_active_30.png);
+
+  background-position:center;
   background-repeat: no-repeat;
 
   /* background-size: 225px, 90px; */
   /* background-size: 150px, 60px; */
   /* background-size: auto; */
-  /* background-size: contain; */
+  background-size: contain;
 }
 
-/* ADDED TRIAL  */
+
 
 .html p {
   font-size: 1em;
@@ -129,17 +125,15 @@ textarea {
   color: white;
 
   border: 1px solid rgba(0, 0, 0, 0.303);;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   /* background:black;
   opacity: .85; */
 
 /*   background-image: url(/pictures/TMNT_donnie_SELECT_active_FINAL_fade.png); */
 
-/*   background-image: url(/pictures/TMNT_donnie_SELECT_idle_FINAL_fade.png); */
-
-/*   background-image: url(/pictures/TMNT_raph_SELECT_idle_opi50.png);
- */
-  /* background-image: url(/pictures/TMNT_leo_SELECT_idle_FINAL_fade.png);  */
+/*   background-image: url(/pictures/TMNT_donnie_SELECT_idle_FINAL_fade.png);*/
+  background-image: url(/pictures/TMNT_raph_SELECT_idle_opi50.png);
+/* background-image: url(/pictures/TMNT_leo_SELECT_idle_FINAL_fade.png);  */
 
 /*   background-image: url(/pictures/TMNT_mikey_SELECT_idle_FINAL_fade.png); */
 
@@ -147,45 +141,9 @@ textarea {
 
   background-repeat: no-repeat;
 
-/* background-size: contain; */
-
+  background-size: contain;
   background-position: center;
   /* background-size: 225px, 90px; */
   /* background-size: 150px, 60px;  */
 
 }
-
-/*FOR SPRITE SHEET */
-
-/* .sprite-raph{
-  background: url('imgs/SNES - Teenage Mutant Ninja Turtles IV Turtles in Time - Raphael.png') no-repeat -9px -10px;
-  width: 61px;
-  height: 115px;
-} */
-
-
- /* FOR CLEAN */
-
-/* .title{
-  text-align: center;
-  border-bottom: 4px solid black;
-  margin-bottom: 30px;
-  font: 170px helvetica;
-  font-weight: 700;
-  color: #000;
-  letter-spacing: -.03em;
-  position: relative;
-  white-space: nowrap;
-  vertical-align: middle;
-  padding: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* ALT */
-
-
-/* (light green) background: rgba(156, 203, 63, 0.8); */
-
-/*   -moz-min-content: 835px;*/
