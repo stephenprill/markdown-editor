@@ -68,27 +68,20 @@ html, body {
   background: rgba(0, 0, 0, 0.6);
   text-shadow: 0px 0px 6px #000, -1px -1px #000, 1px 1px #000;
 
-/*   opacity: .85; */
-  /* background: black;*/
-
-
-  /* background-image: url(/pictures/TMNT_raph_SELECT_active_FINAL_fade.png); */
-
-/*   background-image: url(/pictures/TMNT_donnie_SELECT_active_FINAL_fade.png);
- */
-  /* background-image: url(/pictures/TMNT_leo_SELECT_active_FINAL_fade.png); */
-
-  /* background-image: url(/pictures/TMNT_mikey_SELECT_active_FINAL_fade.png); */
-
   background-image: url(/pictures/TMNT_raph_active_30.png);
+  /* background-image: url(/pictures/TMNT_donnie_select_active_op30.png); */
+  /* background-image: url(/pictures/TMNT_leo_select_active_op30.png); */
+  /* background-image: url(/pictures/TMNT_mikey_select_active_op30.png); */
 
   background-position:center;
   background-repeat: no-repeat;
+  background-size: contain;
 
   /* background-size: 225px, 90px; */
   /* background-size: 150px, 60px; */
   /* background-size: auto; */
-  background-size: contain;
+  /* background:black; */
+  /* opacity: .85; */
 }
 
 
@@ -126,24 +119,20 @@ textarea {
 
   border: 1px solid rgba(0, 0, 0, 0.303);;
   background: rgba(0, 0, 0, 0.6);
-  /* background:black;
-  opacity: .85; */
 
-/*   background-image: url(/pictures/TMNT_donnie_SELECT_active_FINAL_fade.png); */
 
-/*   background-image: url(/pictures/TMNT_donnie_SELECT_idle_FINAL_fade.png);*/
   background-image: url(/pictures/TMNT_raph_SELECT_idle_opi50.png);
-/* background-image: url(/pictures/TMNT_leo_SELECT_idle_FINAL_fade.png);  */
+  /*background-image: url(/pictures/TMNT_donnie_select_idle_op30.png);*/
+  /*background-image: url(/pictures/TMNT_leo_select_idle_op30.png);  */
+  /*background-image: url(/pictures/TMNT_mikey_select_idle_op30.png); */
 
-/*   background-image: url(/pictures/TMNT_mikey_SELECT_idle_FINAL_fade.png); */
-
-  /* background-image: url(/pictures/TMNT_raph_SELECT_idle_FINAL_fade.png); */
 
   background-repeat: no-repeat;
-
   background-size: contain;
   background-position: center;
   /* background-size: 225px, 90px; */
   /* background-size: 150px, 60px;  */
+  /* background:black; */
+  /* opacity: .85; */
 
 }
